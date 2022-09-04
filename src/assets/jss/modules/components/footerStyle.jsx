@@ -2,8 +2,8 @@ import {
   defaultFont,
   container,
   primaryColor
-} from "assets/jss/main.jsx";
-
+} from "./../../main.jsx";
+// ./../../main.jsx
 const footerStyle = {
   block: {
     color: "inherit",

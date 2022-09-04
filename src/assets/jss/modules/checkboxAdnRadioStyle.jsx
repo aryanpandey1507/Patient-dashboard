@@ -1,4 +1,4 @@
-import { primaryColor } from "assets/jss/main.jsx";
+import { primaryColor } from "./../../main.jsx";
 
 const checkboxAdnRadioStyle = {
   checked: {

@@ -2,9 +2,9 @@ import {
   drawerWidth,
   transition,
   container
-} from "assets/jss/main.jsx";
+} from "./../../main.jsx";
 
-const appStyle = theme => ({
+const AppStyle = theme => ({
   wrapper: {
     position: "relative",
     top: "0",
@@ -33,4 +33,4 @@ const appStyle = theme => ({
   }
 });
 
-export default appStyle;
+export default AppStyle;

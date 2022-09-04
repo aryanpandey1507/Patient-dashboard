@@ -11,17 +11,17 @@ import DateRange from "@material-ui/icons/DateRange";
 import ArrowUpward from "@material-ui/icons/ArrowUpward";
 import AccessTime from "@material-ui/icons/AccessTime";
 import Accessibility from "@material-ui/icons/Accessibility";
-// core components
-import GridItem from "components/Grid/GridItem.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import Danger from "components/Typography/Danger.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardIcon from "components/Card/CardIcon.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
+// core ./../../components
+import GridItem from "./../../components/Grid/GridItem.jsx";
+import GridContainer from "./../../components/Grid/GridContainer.jsx";
+import Danger from "./../../components/Typography/Danger.jsx";
+import Card from "./../../components/Card/Card.jsx";
+import CardHeader from "./../../components/Card/CardHeader.jsx";
+import CardIcon from "./../../components/Card/CardIcon.jsx";
+import CardBody from "./../../components/Card/CardBody.jsx";
+import CardFooter from "./../../components/Card/CardFooter.jsx";
 
-import { lineChart } from "variables/charts";
+import { lineChart } from "./../../variables/charts";
 
 import {
   getFutureStressData,
@@ -30,7 +30,7 @@ import {
   getSleepData
 } from "../../services/data";
 
-import dashboardStyle from "assets/jss/modules/views/dashboardStyle.jsx";
+import DashboardStyle from "./../../assets/jss/modules/layouts/dashboardStyle.jsx";
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -300,4 +300,4 @@ Dashboard.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(dashboardStyle)(Dashboard);
+export default withStyles(DashboardStyle)(Dashboard);
